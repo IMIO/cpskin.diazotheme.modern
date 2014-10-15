@@ -1,0 +1,243 @@
+body #visual-portal-wrapper {
+    background-image: url("../images/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+
+
+/* >>> HEADER <<< */
+
+.section-notheme #top-actions {
+    background-color: transparent;
+}
+
+#top-actions {
+    margin-bottom: -1.5em;
+    position: relative;
+    z-index: 1;
+}
+
+#portal-header #top-actions {
+    padding-top: 0.3em;
+}
+
+#portal-header #top-actions a{
+    color:dimgray;
+}
+
+#portal-header #top-actions a:hover {
+    color: black;
+}
+
+#portal-header {
+    margin-bottom: 2em;
+    margin-top: 3em;
+}
+
+#top-search-logo, .section-notheme #top-actions, #portal-header #navWrapper {
+    background-color: white;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding:0 1%;
+}
+
+/* --- Navigation --- */
+
+#top-navigation {
+    background-color: white;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1% 1%;
+}
+
+#portal-header #navWrapper {
+    background-color: #dad9d9;
+    margin: 0 0 1em;
+    padding: 0;
+}
+
+#portal-globalnav li a {
+    background-color: #ff9900;
+    border-color: #e8e8e8 white #e8e8e8 #e8e8e8;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 2px 0 0;
+    margin-right: 0;
+}
+
+#navWrapper #portal-globalnav .selected a, #navWrapper #portal-globalnav .selected a:hover, #navWrapper #portal-globalnav a:hover {
+    background: none repeat scroll 0 0 #f7f4f6;
+    color:black;
+}
+
+#navWrapper #portal-globalnav .theme0 a {
+    background-color:#535966;
+}
+
+.selected .icon-home:before{
+    color:#ffffff;
+}
+
+a:hover .icon-home:before{
+    color:#535966;
+}
+
+#portal-globalnav-cpskinmenu.navTreeLevel0 a, #portal-globalnav-cpskinmenu.navTreeLevel0 a:link, #portal-globalnav-cpskinmenu.navTreeLevel0 a:visited{
+    color:black;
+    padding: 0.4em 0.75em !important;
+}
+
+#portal-globalnav-cpskinmenu {
+    box-shadow: 0 0 0 white;
+}
+
+/* --- Fin navigation --- */
+
+/* --- Faceted navigation --- */
+
+.menutools-1 a, .menutools-2 a, .toolbox-menutools a {
+    background-color: #dad9d9 !important;
+    color: #4d525e !important;
+}
+
+/* --- Fin faceted navigation --- */
+
+/* --- Réseaux sociaux --- */
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    color: #ff9900;
+}
+
+/* --- Fin réseaux sociaux --- */
+
+/* --- Panneau admin --- */
+
+#portal-personaltools dd a:hover {
+    background: none repeat scroll 0 0 #f1f1f1;
+}
+
+#portal-personaltools dd {
+    background-color: #fff;
+}
+
+/* --- Fin pannaux admin --- */
+
+/* >>> FIN HEADER <<< */
+
+/* >>> CONTENT <<< */
+
+#portal-columns {
+    background-color: white;
+    height: 667px;
+    max-width: 1200px;
+    padding: 1%;
+}
+
+.titre-rss, .results{
+    background-color:white;
+    border-bottom: 1px solid #ff9900;
+}
+
+.titre-rss h2 {
+    color: #ff9900;
+}
+
+#content #accueil .voir-tout {
+    background-color: #ff9900;
+    color: #ffffff;
+    padding: 0.2% 0.6%;
+}
+
+.voir-tout:after {
+    content: ">";
+    font-size: 1.5em;
+    position: relative;
+    top: 3px;
+}
+
+#content #accueil a.voir-tout:hover {
+    color:#535966 !important;
+}
+
+/* --- Viewlet multimédia --- */
+
+#multimediaviewlet {
+    background-color: #ffffff;
+    margin: 2em 3px 1em;
+}
+
+.section-notheme #multimediaviewlet h2 {
+    color: #535966;
+}
+
+#multimediaviewlet .link-all {
+    background-color: #535966;
+    color: #ffffff;
+    padding: 0.2% 2%;
+}
+
+#multimediaviewlet .link-all:after {
+    content: ">";
+    font-size: 1.5em;
+    position: relative;
+    top: 3px;
+}
+
+#multimediaviewlet .link-all:hover {
+    color: #ff9900;
+}
+
+/* --- Fin viewlet multimédia --- */
+
+/* --- Flexslider --- */
+
+#carousel ul li {
+    margin-right: 21px;
+    margin-top: 15px;
+    width: 220px !important;
+}
+
+/* --- Fin flexslider --- */
+
+/* --- Portlet gazette --- */
+
+#portlet-gazette, #portlet-gazette .portletHeader {
+    background-color: #dddee0;
+    padding: 3%;
+    margin-top:3%;
+}
+
+/* --- Fin portlet gazette --- */
+
+/* >>> FIN CONTENT <<< */
+
+/* >>> FOOTER <<< */
+
+#portal-footer-wrapper {
+    padding-top: 3em;
+}
+
+#portal-footer-wrapper .row, #portal-footer {
+    background-color: #fbfbfb;
+}
+
+#footer-sitemap div.footer-sitemap-item,#footer-sitemap div.footer-static {
+    border-left: 1px solid #dcdcdf;
+}
+
+.footer-sitemap-item a{
+    color: #434853;
+    font-weight: bold;
+}
+
+#footer-sitemap  .footer-sitemap-item li a {
+    color:#656b76;
+    font-weight:normal;
+}
+
+.footer-sitemap-item li:before {
+    color: #656b76;
+}
+
+/* >>> FIN FOOTER <<< */
