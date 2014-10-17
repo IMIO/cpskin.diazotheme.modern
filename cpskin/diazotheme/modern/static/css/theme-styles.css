@@ -35,11 +35,20 @@ body #visual-portal-wrapper {
     margin-top: 3em;
 }
 
+#portal-top #cpskin-banner, #portal-top #cpskin-banner img {
+    margin: 0 auto;
+    max-width: 1236px;
+}
+
 #top-search-logo, .section-notheme #top-actions, #portal-header #navWrapper {
     background-color: white;
     margin: 0 auto;
     max-width: 1200px;
     padding:0 1%;
+}
+
+.LSBox #searchGadget {
+    color: black;
 }
 
 /* --- Navigation --- */
@@ -52,7 +61,7 @@ body #visual-portal-wrapper {
 }
 
 #portal-header #navWrapper {
-    background-color: #dad9d9;
+    background-color: #E5E5E5;
     margin: 0 0 1em;
     padding: 0;
 }
@@ -66,9 +75,24 @@ body #visual-portal-wrapper {
     margin-right: 0;
 }
 
-#navWrapper #portal-globalnav .selected a, #navWrapper #portal-globalnav .selected a:hover, #navWrapper #portal-globalnav a:hover {
-    background: none repeat scroll 0 0 #f7f4f6;
+#navWrapper #portal-globalnav .activated{
+    background-color: #E5E5E5;
+    color: #000;
+}
+
+#navWrapper #portal-globalnav .selected a:hover, #navWrapper #portal-globalnav a:hover {
+    background: none repeat scroll 0 0 #E5E5E5;
     color:black;
+}
+
+#top-navigation ul.navTreeLevel0 {
+    background-color: #E5E5E5;
+}
+
+#portal-globalnav .selected a {
+    text-decoration: underline;
+    background-color:#ff9900;
+    color:#FFFFFF;
 }
 
 #navWrapper #portal-globalnav .theme0 a {
@@ -80,7 +104,15 @@ body #visual-portal-wrapper {
 }
 
 a:hover .icon-home:before{
-    color:#535966;
+    color:#000;
+}
+
+.plain a:hover .icon-home:before {
+    color: #000;
+}
+
+#top-navigation #portal-globalnav .theme0 a:hover {
+    background-color:#E5E5E5;
 }
 
 #portal-globalnav-cpskinmenu.navTreeLevel0 a, #portal-globalnav-cpskinmenu.navTreeLevel0 a:link, #portal-globalnav-cpskinmenu.navTreeLevel0 a:visited{
@@ -90,6 +122,14 @@ a:hover .icon-home:before{
 
 #portal-globalnav-cpskinmenu {
     box-shadow: 0 0 0 white;
+}
+
+.sf-menu ul.navTreeLevel1 {
+    background-color: #e5e5e5 !important;
+}
+
+#top-navigation .sf-menu ul.direct_access {
+    background-color: #ededed !important;
 }
 
 /* --- Fin navigation --- */
@@ -209,6 +249,35 @@ a:hover .icon-home:before{
 }
 
 /* --- Fin portlet gazette --- */
+
+/* --- Portlet boîte à outils --- */
+
+#icone{
+    padding:0;
+}
+
+#icone > p {
+    clear: left;
+    margin-bottom:0.4em; 
+}
+
+#icone img {
+    border: medium none;
+    border-radius: 4px;
+    margin: 0 0.3em 0.5em;
+    padding: 5px;
+}
+
+#icone > p a {
+	background-color:#fe9900;
+	color:#fff;
+	display: block;
+	letter-spacing: -1px;
+	line-height: 2.8em;
+	text-transform: uppercase;
+}
+
+/* --- Fin portlet boîte à outils --- */
 
 /* >>> FIN CONTENT <<< */
 
