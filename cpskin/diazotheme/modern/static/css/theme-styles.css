@@ -174,13 +174,17 @@ a:hover .icon-home:before{
     padding: 1%;
 }
 
-.titre-rss, .results{
+.titre-rss{
     background-color:white;
-    border-bottom: 1px solid #ff9900;
 }
 
-.titre-rss h2 {
+.titre-rss h2,.bloc-rss:after {
     color: #ff9900;
+}
+
+.results{
+    background-color:white;
+    border-bottom: 1px solid #ff9900;
 }
 
 #content #accueil .voir-tout {
