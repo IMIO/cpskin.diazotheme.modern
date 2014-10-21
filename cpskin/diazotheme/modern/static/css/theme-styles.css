@@ -143,6 +143,15 @@ a:hover .icon-home:before{
 
 /* --- Fin faceted navigation --- */
 
+/* --- Je suis, accès directs --- */
+
+#portal-globalnav li:nth-last-child(2) a, #portal-globalnav li:last-child a{
+    background-color: #E5E5E5;
+    color:#2b2b2b;
+}
+
+/* --- Fin je suis, accès directs --- */
+
 /* --- Réseaux sociaux --- */
 
 [class^="icon-"]:before, [class*=" icon-"]:before {
@@ -185,19 +194,14 @@ a:hover .icon-home:before{
 .results{
     background-color:white;
     border-bottom: 1px solid #ff9900;
+    margin-bottom:3px;
 }
 
 #content #accueil .voir-tout {
     background-color: #ff9900;
     color: #ffffff;
     padding: 0.2% 0.6%;
-}
-
-.voir-tout:after {
-    content: ">";
-    font-size: 1.5em;
-    position: relative;
-    top: 3px;
+    right:0;
 }
 
 #content #accueil a.voir-tout:hover {
@@ -218,14 +222,7 @@ a:hover .icon-home:before{
 #multimediaviewlet .link-all {
     background-color: #535966;
     color: #ffffff;
-    padding: 0.2% 2%;
-}
-
-#multimediaviewlet .link-all:after {
-    content: ">";
-    font-size: 1.5em;
-    position: relative;
-    top: 3px;
+    padding: 1px 5px;
 }
 
 #multimediaviewlet .link-all:hover {
