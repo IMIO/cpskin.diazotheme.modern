@@ -5,7 +5,7 @@ Changelog
 0.1.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add <version>1</version> into metadata.xml.
 
 
 0.1 (2014-12-17)
