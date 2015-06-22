@@ -4,8 +4,6 @@ body #visual-portal-wrapper {
     background-size: 100% auto;
 }
 
-
-
 /* >>> HEADER <<< */
 
 .section-notheme #top-actions {
@@ -119,6 +117,14 @@ a:hover .icon-home:before{
     color: #000;
 }
 
+#portal-globalnav #portaltab-index_html.selected a::before {
+    color: #ffffff;
+}
+
+#portal-globalnav #portaltab-index_html.selected a:hover::before {
+    color: #000000;
+}
+
 #top-navigation #portal-globalnav .theme0 a:hover {
     background-color:#E5E5E5;
 }
@@ -153,9 +159,15 @@ a:hover .icon-home:before{
 
 /* --- Je suis, accès directs --- */
 
-#portal-globalnav #portaltab-je-suis a, #portal-globalnav #portaltab-je-trouve a{
+#navWrapper #portal-globalnav #portaltab-je-suis a, #navWrapper #portal-globalnav #portaltab-je-trouve a{
     background-color: #E5E5E5;
     color:#2b2b2b;
+}
+
+#navWrapper #portal-globalnav #portaltab-je-suis a:hover, #navWrapper #portal-globalnav #portaltab-je-trouve a:hover,
+#navWrapper #portal-globalnav #portaltab-je-suis .activated, #navWrapper #portal-globalnav #portaltab-je-trouve .activated{
+    background-color: #E5E5E5;
+    color:#000000;
 }
 
 /* --- Fin je suis, accès directs --- */
