@@ -11,7 +11,8 @@ Changelog
 0.1.2 (2015-06-22)
 ------------------
 
-- Nothing changed yet.
+- change css navigation
+  [mgennart]
 
 
 0.1.1 (2015-03-19)
