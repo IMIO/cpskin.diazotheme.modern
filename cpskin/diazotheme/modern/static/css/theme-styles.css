@@ -252,11 +252,21 @@ a:hover .icon-home:before{
 
 /* --- Flexslider --- */
 
+/*
+Those rules (#slider & #carousel) should change when #16991 is in production
+Begin
+*/
 #carousel ul li {
     margin-right: 21px;
     margin-top: 15px;
     width: 220px !important;
 }
+#carousel-a-la-une ul li {
+    margin-right: 21px;
+    margin-top: 15px;
+    width: 220px !important;
+}
+/* End */
 
 /* --- Fin flexslider --- */
 
