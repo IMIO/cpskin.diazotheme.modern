@@ -18,13 +18,23 @@
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
 
-    <!-- CPSkin theme -->
+    <!-- Theme -->
     <plone:static directory="static" name="cpskin.diazotheme.modern" type="theme" />
 
     <cmf:registerDirectory
         name="skins"
         directory="skins"
         recursive="True"
+        />
+
+    <!-- Upgrades -->
+    <genericsetup:upgradeStep
+        title="cpskin.diazotheme.modern theme: upgrade to LESS (v2)"
+        description="Upgrade step for cpskin.diazotheme.modern theme to LESS (v2)"
+        handler=".upgradehandlers.upgrade_to_less"
+        source="1"
+        destination="2"
+        profile="cpskin.diazotheme.modern:default"
         />
 
 </configure>

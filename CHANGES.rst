@@ -5,6 +5,9 @@ Changelog
 0.1.3 (unreleased)
 ------------------
 
+- Complete migration to LESS
+  [laulaz]
+
 - Fix IMIO pypi URL
   [laulaz]
 
