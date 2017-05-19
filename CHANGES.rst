@@ -5,6 +5,9 @@ Changelog
 0.1.3 (unreleased)
 ------------------
 
+- Fix IMIO pypi URL
+  [laulaz]
+
 - Add missing theme parameters (harmonization)
   [laulaz]
 
