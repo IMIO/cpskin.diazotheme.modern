@@ -5,6 +5,9 @@ Changelog
 0.1.3 (unreleased)
 ------------------
 
+- Buildout harmonization & add omelette
+  [laulaz]
+
 - Complete migration to LESS
   [laulaz]
 
