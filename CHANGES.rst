@@ -5,7 +5,11 @@ Changelog
 0.2.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Put profiles into separate zcml file
+  [laulaz]
+
+- Add uninstall profile
+  [laulaz]
 
 
 0.2 (2017-05-29)

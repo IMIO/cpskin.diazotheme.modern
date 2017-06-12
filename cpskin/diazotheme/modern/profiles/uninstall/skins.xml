@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<object name="portal_skins">
+
+ <skin-path name="modern theme">
+    <layer name="modern_images"
+           remove="True" />
+ </skin-path>
+
+</object>
