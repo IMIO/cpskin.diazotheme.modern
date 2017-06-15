@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-0.2.1 (unreleased)
+0.2.1 (2017-06-15)
 ------------------
 
 - Put profiles into separate zcml file
