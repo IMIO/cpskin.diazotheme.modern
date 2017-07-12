@@ -12,10 +12,4 @@
     <!-- Theme -->
     <plone:static directory="static" name="cpskin.diazotheme.modern" type="theme" />
 
-    <cmf:registerDirectory
-        name="skins"
-        directory="skins"
-        recursive="True"
-        />
-
 </configure>
