@@ -6,7 +6,7 @@ body #visual-portal-wrapper {
 
 /* >>> HEADER <<< */
 
-.section-notheme #top-actions {
+#top-actions {
     background-color: transparent;
 }
 
@@ -79,6 +79,7 @@ input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
     border-style: solid;
     border-width: 0 2px 0 0;
     margin-right: 0;
+    height: 1.25em;
 }
 
 #navWrapper #portal-globalnav .activated{
@@ -105,23 +106,16 @@ input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
     background-color:#535966;
 }
 
-.selected .icon-home:before{
-    color:#ffffff;
-}
-
-a:hover .icon-home:before{
-    color:#000;
-}
-
-.plain a:hover .icon-home:before {
-    color: #000;
+.icon-home{
+    display: none;
 }
 
 #portal-globalnav #portaltab-index_html.selected a::before {
     color: #ffffff;
 }
 
-#portal-globalnav #portaltab-index_html.selected a:hover::before {
+#portal-globalnav #portaltab-index_html.selected a:hover::before,
+#portal-globalnav #portaltab-index_html.plain a:hover::before{
     color: #000000;
 }
 
