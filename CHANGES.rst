@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-0.2.4 (unreleased)
+0.2.4 (12-10-2017)
 ------------------
 
-- Nothing changed yet.
-
+- change manifest.
+  [mgennart]
 
 0.2.3 (2017-07-17)
 ------------------
