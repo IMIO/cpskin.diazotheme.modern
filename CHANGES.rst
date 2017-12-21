@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-0.2.5 (unreleased)
+0.2.5 (2017-12-21)
 ------------------
 
-- Nothing changed yet.
-
+- Add variable to color for link on homepage and add box-sing for navigation.
+  [mgennart]
 
 0.2.4 (2017-10-12)
 ------------------
