@@ -43,6 +43,7 @@ body #visual-portal-wrapper {
     margin: 0 auto;
     max-width: 1200px;
     padding:0 1%;
+    box-sizing: border-box;
 }
 
 .LSBox #searchGadget {
@@ -64,6 +65,7 @@ input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
     margin: 0 auto;
     max-width: 1200px;
     padding: 0 1% 1%;
+    box-sizing: border-box;
 }
 
 #portal-header #navWrapper {
@@ -206,12 +208,14 @@ input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
 
 .results{
     background-color:white;
-    border-bottom: 1px solid #ff9900;
+    border-bottom: 1px solid @homepage-voir-tout-bg;
     margin-bottom:3px;
 }
-
+.slider-carousel{
+    border-bottom: 1px solid @homepage-voir-tout-bg;
+}
 #content #accueil .voir-tout {
-    background-color: #ff9900;
+    background-color: @homepage-voir-tout-bg;
     color: #ffffff;
     padding: 0.2% 0.6%;
     right:0;
