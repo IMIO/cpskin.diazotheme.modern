@@ -5,7 +5,8 @@ Changelog
 0.2.6 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix incomplete uninstall profile
+  [laulaz]
 
 
 0.2.5 (2017-12-21)
