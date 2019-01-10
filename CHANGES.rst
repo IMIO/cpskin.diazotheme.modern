@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-0.2.6 (unreleased)
+0.2.6 (2019-01-10)
 ------------------
 
 - Fix incomplete uninstall profile
